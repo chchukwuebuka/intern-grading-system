@@ -24,11 +24,12 @@ header {
 header h1 {
   font-family: poppins, roboto, inter;
   margin: 0;
+  color: #ffffff;
 }
 
 .bell{
  position: relative;
- left: 36rem;
+ left: 18rem;
   margin-top: 20px;
 }
 
@@ -75,7 +76,7 @@ main {
   width: 25vw;
   /* margin-left: 700px; */
   position: relative;
-  left: 58rem;
+  left: 45.5rem;
   margin-top: 20px;
   margin-bottom: 30px;
   outline: none;
@@ -94,7 +95,7 @@ main {
   margin-left: 30px;
   background: #fff;
   width: 100%;
-  height: 80vh;
+  height: 95vh;
 }
 
 /*
@@ -109,7 +110,7 @@ main {
   color: black;
   margin-top: 0px;
   width: 75vw;
-  margin-left: 70px;
+  margin-left: 45px;
   height: 30px;
   
 }
