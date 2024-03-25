@@ -1,0 +1,212 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+.parent-div{
+  background: darkblue;
+  width: 96.5vw;
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  gap: 120px;
+}
+
+header h1 {
+  font-family: poppins, roboto, inter;
+  margin: 0;
+}
+
+.bell{
+ position: relative;
+ left: 36rem;
+  margin-top: 20px;
+}
+
+.IMAGE-CONTAINER{
+  width: 130px;
+  height: 120px;
+}
+
+.IMAGE{
+  width: 100%;
+  height: 100%;
+}
+
+.intern-info h2{
+  font-size: large;
+}
+
+.intern-info a{
+  color: white;
+  font-family: roboto;
+  padding: 8px 8px;
+
+  &:hover,
+  &:focus {
+      background-color: #0041c2;
+      color: #ffffff;
+      font-weight: bolder;
+      transform: translateX(5px);
+      box-shadow: 30px #333 solid;
+      border-radius: 5px;
+  }
+}
+
+
+main {
+  padding: 10px;
+  margin-left: 30px;
+  display: flex;
+}
+
+.BTN{
+  background: #f4f4f4;
+  color: #333;
+  width: 25vw;
+  /* margin-left: 700px; */
+  position: relative;
+  left: 58rem;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  outline: none;
+  filter: drop-shadow(30px 10px 4px #4444dd);
+  padding: 5px;
+}
+
+.btn{
+  background-color: transparent;
+  color: #ffffff;
+  padding: 5px;
+  
+}
+
+.intern-detailed-info{
+  margin-left: 30px;
+  background: #fff;
+  width: 100%;
+  height: 80vh;
+}
+
+/*
+.interns-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+*/
+
+.interns-list{
+  color: black;
+  margin-top: 0px;
+  width: 75vw;
+  margin-left: 70px;
+  height: 30px;
+  
+}
+
+.intern-card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  border: 2px #ffffffd8 solid;
+  height: 8px;
+  margin-bottom: 20px;
+
+  &:hover,
+  &:focus {
+      background-color: rgba(145, 140, 210, 0.459);
+      color: black;
+      font-weight: bolder;
+      transform: translateX(20px);
+  }
+}
+
+.intern-card#intern-1{
+  background: #ffffffd8;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.intern-card-2{
+ /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;*/
+  display: grid;
+    grid-template-columns: repeat(6, 1fr); /* Adjust number of columns as needed */
+    gap: 10px; 
+   
+    text-align: center;
+}
+
+
+
+.group{
+  position: relative;
+  bottom: 20px;
+}
+
+.group a{
+  color: #333;
+
+  &:hover,
+  &:focus {
+      background-color: #ffffff;
+      color: black;
+      font-weight: bolder;
+  }
+}
+
+.intern-card-2 h2{
+  font-size: 16px;
+  margin-right: 10px;
+  font-family: poppins;
+}
+
+.intern-card-2 p{
+  font-family: inter;
+}
+
+.intern-card img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.intern-card-2 .group{
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-family: poppins;
+}
+
+.intern-card div {
+  flex-grow: 1;
+}
+
+.settings{
+  padding-top: 30px;
+  font-family: roboto, poppins;
+  font-size: 20px;
+}
+
+.settings a {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
